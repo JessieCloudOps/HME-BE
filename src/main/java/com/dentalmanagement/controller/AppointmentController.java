@@ -31,7 +31,7 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping("api/appointment/")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://cloud9incorporated.online:3000")
 public class AppointmentController {
 
 	Logger LOG = LoggerFactory.getLogger(AppointmentController.class);
